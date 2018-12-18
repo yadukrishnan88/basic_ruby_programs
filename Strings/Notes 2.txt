@@ -1,0 +1,34 @@
+###Ruby notes
+
+string functions
+
+1. upcase
+	-syntax is .upcase()
+	-converts the whole string in to upper case
+	- e.g  str="Hello World"
+		   puts str.upcase()
+		   o/p: HELLO WORLD 
+2. downcase
+	-syntax is .downcase()
+	-converts the whole string in to lower case
+	- e.g 	str="Hello World"
+			puts str.downcase()
+			o/p: hello world
+3. length
+	-syntax is .length()
+	-counts the length of the string
+	- e.g 	str="Hello Ruby"
+			puts str.length()
+			o/p: 10
+4. concatanate
+	-concatanates 2 strings
+	-syntax
+		i. using '+' symbol OR
+		ii. using .concat()
+	- e.g str1="Hello"
+		  str2="Ruby Programming"
+		  puts str1.concat(str2)
+		  OR
+		  puts str1+"Testing"
+		  OR
+		  puts str1.concat("Testing")
