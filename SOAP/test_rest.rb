@@ -1,0 +1,4 @@
+require ''
+
+class TestRest
+end
