@@ -2,17 +2,22 @@ require 'savon'
 
 class TestWS
   def initialize
-    @client = Savon.client(wsdl: "http://www.thomas-bayer.com/axis2/services/BLZService?wsdl")
-    # @client = Savon.client(wsdl: "http://www.xignite.com/xcurrencies.asmx?WSDL")
+    @client = Savon.client(wsdl: "http://www.dneonline.com/calculator.asmx?WSDL")
+
   end
+
   def actions
     puts @client.wsdl.soap_actions
   end
+
   def send_request
-    @client = client
-    puts client.request :blz, :get_bank, body: {blz: "50042500"}
+    client = @client
+    response = client.call(:add, message: {intA: 10, intB: 15})
+    data = response.to_hash
+    puts data
   end
+
   obj = TestWS.new
   obj.actions
-  # obj.send_request
+  obj.send_request
 end
