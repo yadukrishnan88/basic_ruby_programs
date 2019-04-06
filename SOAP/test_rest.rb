@@ -1,4 +1,0 @@
-require ''
-
-class TestRest
-end
