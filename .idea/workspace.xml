@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60b35574-543f-4073-bc68-b0278195766f" name="Default" comment="Added new directory for adding table related logics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/json/read_json_as_hash.rb" afterPath="$PROJECT_DIR$/json/json_actions.rb" />
+      <change beforePath="$PROJECT_DIR$/json/json_actions.rb" afterPath="$PROJECT_DIR$/json/json_actions.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="json_actions.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/json/json_actions.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -285,7 +284,7 @@
       <workItem from="1554508507105" duration="2296000" />
       <workItem from="1554511088150" duration="13000" />
       <workItem from="1564279974327" duration="6273000" />
-      <workItem from="1564333869533" duration="6226000" />
+      <workItem from="1564333869533" duration="7833000" />
     </task>
     <task id="LOCAL-00001" summary="Added a new method to verify whether a value exists dropdown list or not.">
       <created>1548825952529</created>
@@ -365,7 +364,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30022000" />
+    <option name="totallyTimeSpent" value="31629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -821,8 +820,8 @@ v</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/json_actions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
       </provider>

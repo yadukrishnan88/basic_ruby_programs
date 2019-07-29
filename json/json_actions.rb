@@ -14,11 +14,11 @@ class JsonActions
   def replace_json_values(hash, key_argument, value_to_update, array_value_to_update = nil)
     hash.each do |k, v|
       if k == "#{key_argument}" && v.is_a?(String)
-        # update link here
         v.replace "#{value_to_update}"
       elsif v.is_a?(Hash)
         replace_json_values v, key_argument, value_to_update, array_value_to_update
       elsif v.is_a?(Array)
+        # v.flatten.each {|x| replace_json_values(x, key_argument, value_to_update, array_value_to_update) if x.is_a?(Hash)}
         v.each_with_index do |i, idx|
           v[idx] = value_to_update if i == array_value_to_update
         end
@@ -28,7 +28,7 @@ class JsonActions
 
   obj = JsonActions.new
   value = obj.read_json_to_hash
-  # a = obj.replace_json_values(value, "options", "jSOn Testing", "Huston Rocket")
-  a = obj.replace_json_values(value, "answer", "Testing")
+  a = obj.replace_json_values(value, "options", "jSOn Testing", "Huston Rocket")
+  # a = obj.replace_json_values(value, "answer", "Testing")
   puts a
 end
